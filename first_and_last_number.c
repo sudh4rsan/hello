@@ -9,7 +9,7 @@ if(n<=9)
 {
 printf("%d",n);
 }else{
-while(n>10)
+while(n>=10)
 {
 n/=10;
 }
