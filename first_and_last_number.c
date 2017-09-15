@@ -3,6 +3,8 @@ int main()
 {
 int a,b,c,n;
 scanf("%d",&n);
+if(n>0)
+{
 a=n;
 c=n%10;
 if(n<=9)
@@ -15,5 +17,9 @@ n/=10;
 }
 b=n;
 printf("%d",b+c);
-}return 0;
+}}
+  else
+  {
+    printf("Enter postivie value");
+  }return 0;
 }
