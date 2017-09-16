@@ -4,13 +4,13 @@ void main()
 int choice, i=0, counter=0;
   	int fclass[10];
 	printf("Welcome to the booking program");
-	printf("\n-----------------");
+	
 	do{ 
 		printf("\n Please pick one of the following option:");
 		printf("\n 1) Reserve a first class seat on Flight 101.");
 		printf("\n 2) Reserve a coach seat on Flight 101.");
 		printf("\n 3) Quit ");
-		printf("\n ---------------------------------------------------------------------");
+		
 		printf("\nYour choice?");
 		scanf("%d",&choice);
 		switch(choice)
